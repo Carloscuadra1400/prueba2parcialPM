@@ -1,0 +1,48 @@
+
+.fila {
+    display: flex;
+    flex-direction: inherit;
+    margin-right: 10px;
+    align-self: auto;
+}
+
+.casilla{
+    display: flex;
+    flex-direction: column;
+    align-self: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.casilla span {
+    font-size: 10px;
+    color:#999;
+}
+
+.casilla input{
+    padding: 10px;
+    border: 0;
+    border-bottom: 1px solid #474747 ;
+    transition: all .5s;
+}
+
+input:hover{
+    outline: none;
+    border-bottom-color: #3CCAE0;
+}
+
+.casilla label{
+    font-size: 18px;
+    color: #1E1E1E;
+}
+
+.fila input[type="button"]{
+    padding: 50px 150px 50px 150px;
+    background-color: #07470E;
+    transition: all 1s;
+}
+
+input[type="button"]:hover{
+    background-color: #12BF2A;
+    padding: 200px;
+}
